@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Control_Lluvia">
         <activity
+            android:name=".HomeUser"
+            android:exported="true" />
+        <activity
+            android:name=".OlvidarPassword"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
